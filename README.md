@@ -9,4 +9,3 @@ Download the .g1a file and the .bin file, and place to the root of your calculat
 
 If you need to recompile, download the fxsdk
 
-obligatory video coming soon
