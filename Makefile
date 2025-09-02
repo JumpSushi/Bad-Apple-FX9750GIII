@@ -71,7 +71,7 @@ $(COMPRESSED_VIDEO): $(RAW_VIDEO) $(CONVERTER)
 
 # Rule to extract and dither the video frames using ffmpeg
 $(RAW_VIDEO): badapple.mp4
-	ffmpeg -i badapple.mp4 -vf "fps=15,scale=128:64,format=monob" -f rawvideo $@
+	ffmpeg -i badapple.mp4 -vf "fps=15,scale=80:64,format=monob" -f rawvideo $@
 
 # Add the compressed video to the add-in resources
 # This is a placeholder. You might need a more sophisticated way to bundle data.
