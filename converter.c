@@ -2,8 +2,8 @@
 #include <stdlib.h>
 #include <string.h>
 
-// Define the screen dimensions for the calculator
-#define WIDTH 128
+// Content dimensions (5:4) within 128x64 screen; borders added at playback
+#define WIDTH 80
 #define HEIGHT 64
 
 // Function to apply Run-Length Encoding
